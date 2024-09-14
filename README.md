@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **muhammadali03004345@gmail.com**
 
-- 📄 My Resume [https://drive.google.com/file/d/1tg3Qoc99WBFlh4S_5weRVsHDduWzL5_a/view?usp=drive_link](https://drive.google.com/file/d/1tg3Qoc99WBFlh4S_5weRVsHDduWzL5_a/view?usp=drive_link)
+- 📄 My Resume https://drive.google.com/file/d/1ttJvFcqXLjCxQhegGXl9eu7oH_O3pevl/view?usp=drive_link
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
