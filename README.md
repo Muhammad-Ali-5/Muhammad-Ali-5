@@ -58,6 +58,6 @@ I am a Full-Stack Software Engineer specializing in building scalable, productio
 ### 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=m-ali-swe&show_icons=true&theme=radical&hide_border=true" alt="m-ali-swe GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=m-ali-swe&theme=radical&hide_border=true" alt="m-ali-swe GitHub Streak" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Muhammad-Ali-5&show_icons=true&theme=radical&hide_border=true" alt="m-ali-swe GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Muhammad-Ali-5&theme=radical&hide_border=true" alt="m-ali-swe GitHub Streak" width="48%" />
 </p>
