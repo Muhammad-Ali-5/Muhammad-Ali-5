@@ -160,7 +160,7 @@ Live analytics GUI dashboard and optimized OpenCV/YOLOv8 image processing pipeli
 <i>Official Campus Ticketing Infrastructure</i>
 </td>
 <td valign="top">
-Architected and developed the official LGU Support Portal (`support.lgu.edu.pk`) from scratch using Next.js and FastAPI to digitize campus facility and IT ticketing.
+Architected and developed the official LGU Support Portal (`support.lgu.edu.pk`) from scratch using <b>Next.js</b> and <b>FastAPI</b> to digitize campus facility and IT ticketing.
 </td>
 <td valign="top">
 <code>Next.js</code><br/>
@@ -176,7 +176,7 @@ Architected and developed the official LGU Support Portal (`support.lgu.edu.pk`)
 <i>Academic Publishing Platform</i>
 </td>
 <td valign="top">
-Spearheaded feature expansion for the official LGU Research Portal (`research.lgu.edu.pk`) using PHP, enhancing journal publishing capacity and scholar connectivity.
+Spearheaded feature expansion for the official LGU Research Portal (`research.lgu.edu.pk`) using <b>PHP</b> and <b>MySQL</b>, enhancing journal publishing capacity and scholar connectivity.
 </td>
 <td valign="top">
 <code>PHP</code><br/>
@@ -239,8 +239,8 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 **Full-Stack Software Engineer Intern** | Lahore Garrison University (LGU)  
 *April 2026 – July 2026 | Lahore, Pakistan*
 
-- Architected and developed the official LGU Support Portal (`support.lgu.edu.pk`) from scratch using Next.js and FastAPI to digitize campus facility and IT ticketing.
-- Spearheaded the feature expansion of the newly launched LGU Research Portal (`research.lgu.edu.pk`) using PHP, enhancing academic journal publishing capacity.
+- Architected and developed the official LGU Support Portal (`support.lgu.edu.pk`) from scratch using **Next.js** and **FastAPI** to digitize campus facility and IT ticketing.
+- Spearheaded the feature expansion of the newly launched LGU Research Portal (`research.lgu.edu.pk`) using **PHP** and **MySQL**, enhancing academic journal publishing capacity.
 
 ---
 
@@ -250,12 +250,9 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 
 ## 🎓 Education & Certifications
 
-### 🎓 Education
 - **B.S. in Computer Science** — Lahore Garrison University (LGU), Lahore, Pakistan *(03/2023 – Present)*
   - **Academic Standing**: Batch Topper / Expected Gold Medalist
   - **Cumulative GPA**: **3.94 / 4.0**
-
-### 📜 Certifications
 - 🏅 **PIAIC Agentic AI Professional** (Level 2)
 - 🏅 **PIAIC Model Context Protocol** (Level 2)
 
@@ -277,7 +274,11 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 
 <br/><br/>
 
-<!-- Executive Navigation Links & Footer Wave -->
+<!-- Executive Closing Statement & Footer Wave -->
+<div align="center">
+
+### 💜 *"Code with logic. Build with purpose. Automate the future."*
+
 <p align="center">
   <a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer"><b>Portfolio</b></a> &nbsp;•&nbsp;
   <a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer"><b>LinkedIn</b></a> &nbsp;•&nbsp;
@@ -287,6 +288,7 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00D2FF&height=120&section=footer&reversal=true&stroke=00D2FF&strokeWidth=2" width="100%" alt="Footer Wave" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0077b5,100:00E5FF&height=120&section=footer&reversal=true&stroke=00E5FF&strokeWidth=2" width="100%" alt="Footer Wave" />
 
+</div>
 </div>
