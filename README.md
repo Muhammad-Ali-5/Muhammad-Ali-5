@@ -43,13 +43,13 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 
 ### 💻 Frontend & UI Engineering
 - **Core Languages**: TypeScript, JavaScript, HTML5, CSS3
-- **Frameworks**: Next.js 16/15 (App Router & SEO Optimization), React 19
-- **Styling & UI**: Tailwind CSS v4, Shadcn/UI, Framer Motion
+- **Frameworks**: Next.js (App Router & SEO Optimization), React
+- **Styling & UI**: Tailwind CSS, Shadcn/UI, Framer Motion
 - **State & Data**: Zustand, TanStack Query
 
 ### ⚙️ Backend & Real-Time APIs
-- **Core Stack**: FastAPI (Python 3.11+), Node.js, Express.js (MERN)
-- **ORMs & Validation**: Async SQLAlchemy 2.0, Pydantic
+- **Core Languages & Stack**: PHP, FastAPI (Python), Node.js, Express.js (MERN)
+- **ORMs & Validation**: Async SQLAlchemy, Pydantic
 - **Real-Time Infrastructure**: WebSockets, Server-Sent Events (SSE), RESTful APIs
 
 </td>
@@ -58,12 +58,12 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 ### 🗄️ Databases & Infrastructure
 - **Relational Databases**: PostgreSQL, MySQL, SQLite
 - **NoSQL Databases**: MongoDB
-- **DevOps & Hosting**: Docker, Docker Compose, Git/GitHub Actions, Linux (Ubuntu), VPS Hosting
+- **DevOps & Hosting**: Docker, Docker Compose, Git, GitHub, Linux (Ubuntu), cPanel & VPS Hosting
 - **Architecture & Security**: Stateful JWT Auth, RBAC, Modular Monoliths
 
 ### 🤖 Agentic AI & Operations Research
 - **AI Orchestration**: LangGraph, LangChain, Multi-Agent Systems, Model Context Protocol (MCP)
-- **LLM Integrations**: OpenAI SDK, Google Gemini SDK
+- **LLM Integrations**: OpenAI SDK, Google Gemini SDK, Ollama (Local LLMs)
 - **Optimization & Vision**: Google OR-Tools (CP-SAT Solver), OpenCV, YOLOv8
 
 </td>
@@ -73,7 +73,7 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 <br/>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,nextjs,react,tailwind,fastapi,nodejs,express,postgres,mongodb,docker,git,linux" height="50" alt="Technical Stack Icon Grid" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,php,nextjs,react,tailwind,fastapi,nodejs,express,postgres,mongodb,docker,git,linux" height="50" alt="Technical Stack Icon Grid" />
 </div>
 
 <br/>
@@ -96,23 +96,22 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 <tr>
 <td valign="top">
 🎓 <b><a href="https://campus.m-ali-swe.tech">Campus URP</a></b><br/>
-<i>Enterprise Campus Super-App</i>
+<i>Campus Management Suite</i>
 </td>
 <td valign="top">
-Modular campus management super-app integrating 7 specialized subsystems:
+Modular campus management suite integrating 7 specialized subsystems:
 <ul>
   <li><b>IAM & Auth</b>: Dual-identity authentication (Roll Numbers & Faculty Emails) with statefully tracked, rotatable refresh tokens in PostgreSQL and session revocation.</li>
   <li><b>Timetable Auto-Scheduler</b>: Constraint-based scheduler using Google OR-Tools CP-SAT solver and backtracking to resolve room, faculty, and cohort conflicts.</li>
-  <li><b>Cafe POS KDS Engine</b>: Zero-trust financial execution engine handling idempotency, bounded digital wallet deductions, and real-time KDS synchronization.</li>
+  <li><b>Cafe POS KDS Engine</b>: Financial execution engine handling idempotency, bounded digital wallet deductions, and real-time KDS synchronization.</li>
   <li><b>OPAC Library & Lost & Found</b>: Finite state machine securely managing item verification and book circulation.</li>
 </ul>
 </td>
 <td valign="top">
-<code>Next.js 16</code><br/>
+<code>Next.js</code><br/>
 <code>FastAPI</code><br/>
 <code>PostgreSQL</code><br/>
 <code>Google OR-Tools</code><br/>
-<code>LangGraph</code><br/>
 <code>Docker</code>
 </td>
 </tr>
@@ -123,7 +122,7 @@ Modular campus management super-app integrating 7 specialized subsystems:
 <i>Conversational AI Assistant</i>
 </td>
 <td valign="top">
-Multimodal conversational interface with PostgreSQL dialog state persistence.
+Multimodal conversational interface managing dialog state persistence in PostgreSQL using LangChain and LangGraph for agentic workflow orchestration.
 <ul>
   <li>Server-Sent Events (SSE) integration for real-time LLM token streaming.</li>
   <li>Stateful chat history retrieval for low-latency multi-turn sessions across sessions.</li>
@@ -132,7 +131,8 @@ Multimodal conversational interface with PostgreSQL dialog state persistence.
 <td valign="top">
 <code>Next.js</code><br/>
 <code>FastAPI</code><br/>
-<code>OpenAI / Gemini SDKs</code><br/>
+<code>LangChain</code><br/>
+<code>LangGraph</code><br/>
 <code>PostgreSQL</code><br/>
 <code>SSE Streaming</code>
 </td>
@@ -147,7 +147,7 @@ Multimodal conversational interface with PostgreSQL dialog state persistence.
 Live analytics GUI dashboard and optimized OpenCV/YOLOv8 image processing pipeline for automated multi-face batch attendance with confidence scoring.
 </td>
 <td valign="top">
-<code>Python 3.11</code><br/>
+<code>Python</code><br/>
 <code>OpenCV</code><br/>
 <code>YOLOv8</code><br/>
 <code>SQLite</code>
@@ -202,28 +202,28 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 </tr>
 <tr>
 <td valign="top"><b>Aether AI SEO Engine</b></td>
-<td valign="top">Automated SEO analysis and content optimization platform utilizing LLM insights.</td>
-<td valign="top"><code>Next.js</code> <code>Python</code> <code>FastAPI</code></td>
+<td valign="top">Automated SEO analysis and content optimization platform.</td>
+<td valign="top"><code>Next.js</code> <code>React</code> <code>Tailwind</code></td>
 </tr>
 <tr>
 <td valign="top"><b>Apex Commerce Suite</b></td>
-<td valign="top">High-concurrency e-commerce architecture with inventory ledger synchronization.</td>
-<td valign="top"><code>React</code> <code>Node.js</code> <code>PostgreSQL</code></td>
+<td valign="top">High-concurrency e-commerce architecture user interface.</td>
+<td valign="top"><code>Next.js</code> <code>React</code> <code>Tailwind</code></td>
 </tr>
 <tr>
 <td valign="top"><b>Orbit SaaS Platform</b></td>
-<td valign="top">Multi-tenant SaaS boilerplate with RBAC and stripe subscription billing.</td>
+<td valign="top">Multi-tenant SaaS boilerplate with RBAC and subscription billing UI.</td>
 <td valign="top"><code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code></td>
 </tr>
 <tr>
 <td valign="top"><b>POSIX OS Toolkit (C++)</b></td>
 <td valign="top">Low-level POSIX process scheduling and memory management simulations in C++.</td>
-<td valign="top"><code>C++17</code> <code>POSIX</code> <code>Linux</code></td>
+<td valign="top"><code>C++</code> <code>POSIX</code> <code>Linux</code></td>
 </tr>
 <tr>
 <td valign="top"><b>Lumina Cloud Gallery</b></td>
-<td valign="top">Distributed image gallery with cloud storage integration and metadata indexing.</td>
-<td valign="top"><code>React</code> <code>FastAPI</code> <code>Cloudinary</code></td>
+<td valign="top">Cloud image gallery with metadata indexing.</td>
+<td valign="top"><code>Next.js</code> <code>React</code> <code>Tailwind</code></td>
 </tr>
 </table>
 </details>
