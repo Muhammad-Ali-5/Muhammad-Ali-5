@@ -5,27 +5,24 @@
 
 <br/><br/>
 
-<!-- Capsule Render Glowing Blur Header for Name -->
-<img src="https://capsule-render.vercel.app/api?type=blur&text=Muhammad%20Ali&color=0:003366,50:0077b5,100:00D2FF&fontSize=52&fontColor=FFFFFF&height=150" width="100%" alt="Muhammad Ali Blur Header" />
+<!-- Wide Glowing Blur Header Banner for Name & Title -->
+<img src="https://capsule-render.vercel.app/api?type=blur&text=Muhammad%20Ali&color=0:0052D4,30:0077b5,70:00D2FF,100:0052D4&fontSize=56&fontColor=FFFFFF&fontAlignY=35&desc=Full-Stack%20Software%20Engineer%20%7C%20Systems%20Architect&descAlignY=64&descSize=16&descColor=00D2FF&height=180" width="100%" alt="Muhammad Ali" />
 
-<h3>Full-Stack Software Engineer</h3>
 <p><i>Building Production Web Applications, Constraint Optimization Solvers & Agentic AI Workflows</i></p>
 
-<br/>
-
-<!-- Social & Portfolio Links -->
+<!-- Sleek Flat-Square Action Buttons (Single Centered Row) -->
 <p align="center">
   <a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Portfolio-m--ali--swe.tech-0077b5?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfolio" />
-  </a>&nbsp;
+    <img src="https://img.shields.io/badge/Portfolio-m--ali--swe.tech-0077b5?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>&nbsp;&nbsp;
   <a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-m--ali--swe-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
-  </a>&nbsp;
+    <img src="https://img.shields.io/badge/LinkedIn-m--ali--swe-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>&nbsp;&nbsp;
   <a href="https://github.com/m-ali-swe" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-m--ali--swe-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub" />
-  </a>&nbsp;
+    <img src="https://img.shields.io/badge/GitHub-m--ali--swe-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>&nbsp;&nbsp;
   <a href="mailto:muhammadali5.swe@gmail.com">
-    <img src="https://img.shields.io/badge/Email-muhammadali5.swe@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-muhammadali5.swe@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
