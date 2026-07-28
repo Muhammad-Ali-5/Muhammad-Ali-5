@@ -42,12 +42,16 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 <td width="50%" valign="top">
 
 ### 💻 Frontend & UI Engineering
+<img src="https://skillicons.dev/icons?i=ts,js,nextjs,react,tailwind" height="34" alt="Frontend Icons" />
+<br/><br/>
 - **Core Languages**: TypeScript, JavaScript, HTML5, CSS3
 - **Frameworks**: Next.js 16/15 (App Router & SEO Optimization), React 19
 - **Styling & UI**: Tailwind CSS v4, Shadcn/UI, Framer Motion
 - **State & Performance**: Zustand, TanStack Query, Code Splitting
 
 ### ⚙️ Backend & Real-Time APIs
+<img src="https://skillicons.dev/icons?i=py,fastapi,nodejs,express" height="34" alt="Backend Icons" />
+<br/><br/>
 - **Core Stack**: FastAPI (Python 3.11+), Node.js, Express.js (MERN)
 - **ORMs & Validation**: Async SQLAlchemy 2.0, Pydantic
 - **Real-Time Infrastructure**: WebSockets, Server-Sent Events (SSE), RESTful APIs
@@ -56,6 +60,8 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 <td width="50%" valign="top">
 
 ### 🗄️ Databases & Infrastructure
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,git,linux" height="34" alt="Infrastructure Icons" />
+<br/><br/>
 - **Relational Databases**: PostgreSQL, MySQL, SQLite
 - **NoSQL Databases**: MongoDB
 - **DevOps & Hosting**: Docker, Docker Compose, Git/GitHub Actions, Linux (Ubuntu), VPS Hosting
@@ -69,12 +75,6 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 </td>
 </tr>
 </table>
-
-<br/>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,nextjs,react,tailwind,fastapi,nodejs,express,postgres,mongodb,docker,git,linux" height="50" alt="Technical Stack Icon Grid" />
-</div>
 
 <br/>
 
@@ -250,9 +250,12 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 
 ## 🎓 Education & Certifications
 
+### 🎓 Education
 - **B.S. in Computer Science** — Lahore Garrison University (LGU), Lahore, Pakistan *(03/2023 – Present)*
   - **Academic Standing**: Batch Topper / Expected Gold Medalist
   - **Cumulative GPA**: **3.94 / 4.0**
+
+### 📜 Certifications
 - 🏅 **PIAIC Agentic AI Professional** (Level 2)
 - 🏅 **PIAIC Model Context Protocol** (Level 2)
 
@@ -274,11 +277,7 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 
 <br/><br/>
 
-<!-- Executive Closing Statement & Footer Wave -->
-<div align="center">
-
-### 💜 *"Code with logic. Build with purpose. Automate the future."*
-
+<!-- Executive Navigation Links & Footer Wave -->
 <p align="center">
   <a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer"><b>Portfolio</b></a> &nbsp;•&nbsp;
   <a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer"><b>LinkedIn</b></a> &nbsp;•&nbsp;
@@ -290,5 +289,4 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0077b5,100:00E5FF&height=120&section=footer&reversal=true&stroke=00E5FF&strokeWidth=2" width="100%" alt="Footer Wave" />
 
-</div>
 </div>
