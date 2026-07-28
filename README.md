@@ -43,13 +43,13 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 
 ### 💻 Frontend & UI Engineering
 - **Core Languages**: TypeScript, JavaScript, HTML5, CSS3
-- **Frameworks**: Next.js (App Router & SEO Optimization), React
+- **Frameworks**: Next.js (App Router & Pages Router, SEO), React
 - **Styling & UI**: Tailwind CSS, Shadcn/UI, Framer Motion
 - **State & Data**: Zustand, TanStack Query
 
 ### ⚙️ Backend & Real-Time APIs
 - **Core Languages & Stack**: PHP, FastAPI (Python), Node.js, Express.js (MERN)
-- **ORMs & Validation**: Async SQLAlchemy, Pydantic
+- **ORMs, Validation & Testing**: Async SQLAlchemy, Pydantic, Pytest
 - **Real-Time Infrastructure**: WebSockets, Server-Sent Events (SSE), RESTful APIs
 
 </td>
