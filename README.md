@@ -38,27 +38,53 @@
 
 ## 👨‍💻 Professional Summary
 
-Full-Stack Software Engineer and final-year Computer Science student at **Lahore Garrison University (CGPA 3.94 / 4.0)**. Experienced in architecting and deploying full-stack web applications using **Next.js**, **FastAPI**, and the **MERN stack**. Specialized in relational database modeling, containerization with **Docker**, constraint-based optimization using **Google OR-Tools**, and multi-agent AI orchestration via **LangGraph**.
+Full-Stack Software Engineer and final-year Computer Science student at Lahore Garrison University (CGPA 3.94 / 4.0). Experienced in architecting and deploying full-stack web applications using Next.js, FastAPI, and the MERN stack. Specialized in relational database modeling, containerization with Docker, building high-concurrency real-time systems (SSE/WebSockets), and stateful multi-agent AI orchestration via LangGraph.
 
 ---
 
 <!-- ============================================================ -->
-<!-- TECHNICAL SKILLS -->
+<!-- TECHNICAL SKILLS & ARCHITECTURE -->
 <!-- ============================================================ -->
 
-## 🛠️ Technical Skills
+## 🛠️ Technical Skills & Architecture Matrix
 
-- **Languages**: JavaScript, TypeScript, Python (3.11+), PHP, HTML/CSS, C++
-- **Frontend**: Next.js, React, Tailwind CSS, Zustand, TanStack Query, Shadcn/UI, SEO Optimization
-- **Backend**: FastAPI (Python), Node.js, Express.js (MERN), SQLAlchemy, Pydantic, RESTful APIs, WebSockets, SSE
-- **Databases**: PostgreSQL, MySQL, MongoDB, Relational Data Modeling, Migrations (Alembic)
-- **AI & Orchestration**: LangGraph, LangChain, Multi-Agent Systems, OpenAI & Gemini SDKs, Model Context Protocol (MCP)
-- **DevOps & Architecture**: Docker, Docker Compose, Git/GitHub, Linux (Ubuntu), VPS Hosting, Stateful JWT Auth, RBAC, Modular Monoliths
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💻 Frontend & UI Engineering
+- **Core Languages**: TypeScript, JavaScript, HTML5, CSS3
+- **Frameworks**: Next.js 16/15 (App Router), React 19
+- **Styling & Components**: Tailwind CSS v4, Shadcn/UI, Framer Motion
+- **State & Data**: Zustand, TanStack Query, SEO Optimization
+
+### ⚙️ Backend & Real-Time APIs
+- **Core Stack**: FastAPI (Python 3.11+), Node.js, Express.js
+- **ORMs & Validation**: Async SQLAlchemy 2.0, Pydantic
+- **Real-Time Architecture**: WebSockets, Server-Sent Events (SSE), RESTful APIs
+
+</td>
+<td width="50%" valign="top">
+
+### 🗄️ Databases & Infrastructure
+- **Relational Databases**: PostgreSQL, MySQL, SQLite
+- **NoSQL Databases**: MongoDB
+- **DevOps & Containers**: Docker, Docker Compose, Git/GitHub Actions, Linux (Ubuntu), VPS Hosting
+- **Security & Patterns**: Stateful JWT Auth, RBAC, Modular Monoliths
+
+### 🤖 Agentic AI & Operations Research
+- **AI Orchestration**: LangGraph, LangChain, Multi-Agent Systems, Model Context Protocol (MCP)
+- **LLM Integrations**: OpenAI SDK, Google Gemini SDK
+- **Optimization & Vision**: Google OR-Tools (CP-SAT Solver), OpenCV, YOLOv8
+
+</td>
+</tr>
+</table>
 
 <br/>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,nextjs,react,tailwind,fastapi,nodejs,express,postgres,mongodb,docker,git,linux" height="46" alt="Technical Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,nextjs,react,tailwind,fastapi,nodejs,express,postgres,mongodb,docker,git,linux" height="50" alt="Technical Stack Icon Grid" />
 </div>
 
 <br/>
