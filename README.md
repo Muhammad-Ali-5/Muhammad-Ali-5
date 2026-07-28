@@ -12,8 +12,21 @@
 
 <br/>
 
-<!-- Modern Premium Action Badges (Without Link Underlines) -->
-<p align="center"><a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-m--ali--swe.tech-0077B5?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-m--ali--swe-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://github.com/m-ali-swe" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-m--ali--swe-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub" /></a>&nbsp;&nbsp;<a href="mailto:muhammadali5.swe@gmail.com"><img src="https://img.shields.io/badge/Email-muhammadali5.swe@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" /></a></p>
+<!-- Capsule Render Cylinder Pill Action Buttons -->
+<p align="center">
+  <a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer">
+    <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0077b5&height=42&text=🌐%20Portfolio&fontSize=14&fontColor=FFFFFF" alt="Portfolio" />
+  </a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer">
+    <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0A66C2&height=42&text=💼%20LinkedIn&fontSize=14&fontColor=FFFFFF" alt="LinkedIn" />
+  </a>&nbsp;&nbsp;
+  <a href="https://github.com/m-ali-swe" target="_blank" rel="noopener noreferrer">
+    <img src="https://capsule-render.vercel.app/api?type=cylinder&color=181717&height=42&text=🐙%20GitHub&fontSize=14&fontColor=FFFFFF" alt="GitHub" />
+  </a>&nbsp;&nbsp;
+  <a href="mailto:muhammadali5.swe@gmail.com">
+    <img src="https://capsule-render.vercel.app/api?type=cylinder&color=EA4335&height=42&text=✉️%20Email&fontSize=14&fontColor=FFFFFF" alt="Email" />
+  </a>
+</p>
 
 </div>
 
