@@ -1,27 +1,27 @@
 <div align="center">
 
-<!-- High-Resolution Professional LinkedIn Hero Banner -->
-<img src="assets/hero-banner.png" width="100%" alt="Muhammad Ali — System Architecture Hero Banner" />
+<!-- High-Resolution Professional Systems Architecture Banner -->
+<img src="assets/hero-banner.png" width="100%" alt="Muhammad Ali — Enterprise Systems Architect Banner" />
 
 <br/><br/>
 
-<!-- Vibrant Electric Cobalt / Cyan Glowing Capsule Header -->
+<!-- Vibrant Glowing Electric Cyan & Cobalt Header Banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=180&section=header&text=Muhammad+Ali&animation=twinkling&stroke=00D2FF&strokeWidth=2&fontSize=40&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack+Software+Engineer+%7C+Enterprise+Systems+%26+Agentic+AI&descAlignY=60&descSize=14" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=180&section=header&text=Muhammad+Ali&animation=twinkling&stroke=0052D4&strokeWidth=2&fontSize=40&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack+Software+Engineer+%7C+Enterprise+Systems+%26+Agentic+AI&descAlignY=60&descSize=14" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=180&section=header&text=Muhammad+Ali&animation=twinkling&stroke=00D2FF&strokeWidth=2&fontSize=40&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack+Software+Engineer+%7C+Enterprise+Systems+%26+Agentic+AI&descAlignY=60&descSize=14" width="100%" alt="Header Banner" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=160&section=header&text=Muhammad+Ali&stroke=00D2FF&strokeWidth=2&fontSize=38&fontColor=FFFFFF&fontAlignY=42&desc=Full-Stack+Software+Engineer+%7C+Systems+Architect&descAlignY=62&descSize=14" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=160&section=header&text=Muhammad+Ali&stroke=0052D4&strokeWidth=2&fontSize=38&fontColor=FFFFFF&fontAlignY=42&desc=Full-Stack+Software+Engineer+%7C+Systems+Architect&descAlignY=62&descSize=14" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=160&section=header&text=Muhammad+Ali&stroke=00D2FF&strokeWidth=2&fontSize=38&fontColor=FFFFFF&fontAlignY=42&desc=Full-Stack+Software+Engineer+%7C+Systems+Architect&descAlignY=62&descSize=14" width="100%" alt="Header Banner" />
 </picture>
 
 <br/>
 
-<!-- Animated Terminal / Typing SVG Line -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=00D2FF&center=true&vCenter=true&width=800&lines=Full-Stack+Software+Engineer+%26+Systems+Architect;Architecting+Enterprise+Campus+Super-Apps+(Campus+URP);Building+Stateful+Multi-Agent+AI+Systems+(LangGraph);Batch-Topper+%7C+CGPA+3.94%2F4.0+%7C+Lahore+Garrison+University" alt="Typing SVG" />
-</a>
+<!-- Crisp Static Professional Headline -->
+<h1>Muhammad Ali</h1>
+<h3>Full-Stack Software Engineer & Systems Architect</h3>
+<p><i>Architecting Scalable Microservices, Constraint Solvers & Stateful Agentic AI Systems</i></p>
 
-<br/><br/>
+<br/>
 
-<!-- Personal CTA & Social Badges -->
+<!-- Executive Personal Channels & Contact Badges -->
 <p align="center">
   <a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/🌐_Portfolio-m--ali--swe.tech-0077b5?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" alt="Portfolio" />
@@ -52,9 +52,8 @@
 
 ```yaml
 engineer: "Muhammad Ali"
-title: "Full-Stack Software Engineer & Enterprise Systems Architect"
-academics: "B.S. in Computer Science (Batch Topper / Expected Gold Medalist)"
-institution: "Lahore Garrison University (LGU), Lahore, Pakistan (CGPA 3.94 / 4.0)"
+title: "Full-Stack Software Engineer & Systems Architect"
+education: "B.S. in Computer Science | Lahore Garrison University (LGU), Lahore, Pakistan"
 contact: "+92-328-4983021 | muhammadali5.swe@gmail.com"
 architectural_focus:
   - "Distributed Microservices & Modular Monolith Architecture"
@@ -63,7 +62,7 @@ architectural_focus:
   - "High-Concurrency Real-Time Infrastructure (SSE / WebSockets / PostgreSQL)"
 ```
 
-I am a **Full-Stack Software Engineer** specializing in architecting complex, production-grade software systems. My engineering ethos focuses on **solving hard algorithmic and architectural challenges**—from constraint-based automated schedule solvers and zero-trust transaction execution engines to stateful multi-agent LLM orchestration.
+I am a **Full-Stack Software Engineer** specializing in architecting complex, production-grade software systems. My engineering focus centers on **solving high-concurrency algorithmic and architectural challenges**—from constraint-based automated schedule solvers and zero-trust transaction execution engines to stateful multi-agent LLM orchestration.
 
 ---
 
@@ -290,7 +289,7 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 ---
 
 <!-- ============================================================ -->
-<!-- EXPERIENCE & ACADEMIC DISTINCTIONS -->
+<!-- EXPERIENCE & ACADEMIC HONORS -->
 <!-- ============================================================ -->
 
 ## 💼 Experience & Academic Honors
@@ -299,7 +298,7 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 - **Full-Stack Software Engineer Intern** | Lahore Garrison University (LGU) *(April 2026 – July 2026 | Lahore, Pakistan)*
   - Spearheaded development of `support.lgu.edu.pk` (Next.js + FastAPI) and expanded features for `research.lgu.edu.pk` (PHP + MySQL).
 
-### 🎓 Academic Distinctions
+### 🎓 Academic Honors & Distinctions
 - **B.S. in Computer Science** | Lahore Garrison University (LGU) *(03/2023 – Present)*
   - **Academic Rank**: Batch Topper / Expected Gold Medalist
   - **Cumulative GPA**: **3.94 / 4.0**
@@ -311,26 +310,19 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 ---
 
 <!-- ============================================================ -->
-<!-- SYSTEM TELEMETRY & AUTOMATED METRICS -->
+<!-- CONTRIBUTION ACTIVITY GRAPH -->
 <!-- ============================================================ -->
 
-## 📊 Real-Time Telemetry & Contribution Activity
+## 📈 Real-Time GitHub Contribution Activity
 
 <div align="center">
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=m-ali-swe&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=m-ali-swe&theme=tokyonight&hide_border=true" alt="Commit Streak" />
-</p>
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-ali-swe&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
-<!-- Snake Contribution Activity Graphic -->
-<p align="center">
-  <b>Real GitHub Contribution Activity Graph (Snake Animation)</b><br/>
-  <img src="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/snake-output/snake.svg" alt="Snake Contribution Graph" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/snake-output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/snake-output/snake.svg">
+    <img alt="Real GitHub Contribution Snake Graph" src="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/snake-output/snake-dark.svg" width="100%">
+  </picture>
 </p>
 
 </div>
@@ -366,9 +358,9 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=100&section=footer&animation=twinkling&stroke=00D2FF&strokeWidth=2" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=100&section=footer&animation=twinkling&stroke=0052D4&strokeWidth=2" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=100&section=footer&animation=twinkling&stroke=00D2FF&strokeWidth=2" width="100%" alt="Footer Banner" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=100&section=footer&stroke=00D2FF&strokeWidth=2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=100&section=footer&stroke=0052D4&strokeWidth=2" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=100&section=footer&stroke=00D2FF&strokeWidth=2" width="100%" alt="Footer Banner" />
 </picture>
 
 **Architecting Scalable Systems • Engineering Intelligent Solutions**
