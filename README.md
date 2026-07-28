@@ -1,28 +1,30 @@
 <div align="center">
 
-<!-- High-Resolution Professional LinkedIn / Hero Banner -->
+<!-- High-Resolution Professional LinkedIn Hero Banner -->
 <img src="assets/hero-banner.png" width="100%" alt="Muhammad Ali — System Architecture Hero Banner" />
 
 <br/><br/>
 
-<!-- Waving Capsule Header with Dark/Light Mode Adaptivity & fadeIn animation -->
+<!-- Vibrant Electric Cobalt / Cyan Glowing Capsule Header -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:0e75b6,100:0d0221&height=180&section=header&text=Muhammad+Ali&animation=fadeIn&stroke=0E75B6&strokeWidth=1.5&fontSize=38&fontColor=FFFFFF&fontAlignY=36&desc=Full-Stack+Software+Engineer+%7C+Enterprise+Systems+%26+Agentic+AI&descAlignY=58&descSize=14" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:e6f2ff,50:0e75b6,100:e6f2ff&height=180&section=header&text=Muhammad+Ali&animation=fadeIn&stroke=0E75B6&strokeWidth=1.5&fontSize=38&fontColor=0d0221&fontAlignY=36&desc=Full-Stack+Software+Engineer+%7C+Enterprise+Systems+%26+Agentic+AI&descAlignY=58&descSize=14" />
-  <img src="assets/hero-banner.png" width="100%" alt="Header Banner" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=180&section=header&text=Muhammad+Ali&animation=twinkling&stroke=00D2FF&strokeWidth=2&fontSize=40&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack+Software+Engineer+%7C+Enterprise+Systems+%26+Agentic+AI&descAlignY=60&descSize=14" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=180&section=header&text=Muhammad+Ali&animation=twinkling&stroke=0052D4&strokeWidth=2&fontSize=40&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack+Software+Engineer+%7C+Enterprise+Systems+%26+Agentic+AI&descAlignY=60&descSize=14" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=180&section=header&text=Muhammad+Ali&animation=twinkling&stroke=00D2FF&strokeWidth=2&fontSize=40&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack+Software+Engineer+%7C+Enterprise+Systems+%26+Agentic+AI&descAlignY=60&descSize=14" width="100%" alt="Header Banner" />
 </picture>
+
+<br/>
 
 <!-- Animated Terminal / Typing SVG Line -->
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=0E75B6&center=true&vCenter=true&width=800&lines=Full-Stack+Software+Engineer+%26+Systems+Architect;Architecting+Enterprise+Campus+Super-Apps+(UniFlow+URP);Building+Stateful+Multi-Agent+AI+Systems+(LangGraph);Batch-Topper+%7C+CGPA+3.94%2F4.0+%7C+Lahore+Garrison+University" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=00D2FF&center=true&vCenter=true&width=800&lines=Full-Stack+Software+Engineer+%26+Systems+Architect;Architecting+Enterprise+Campus+Super-Apps+(Campus+URP);Building+Stateful+Multi-Agent+AI+Systems+(LangGraph);Batch-Topper+%7C+CGPA+3.94%2F4.0+%7C+Lahore+Garrison+University" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<!-- Primary CTA & Verification Badges -->
+<!-- Personal CTA & Social Badges -->
 <p align="center">
-  <a href="https://campus.m-ali-swe.tech" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/🌐_UniFlow_URP-Live_Platform-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" alt="UniFlow URP Live" />
+  <a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-m--ali--swe.tech-0077b5?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" alt="Portfolio" />
   </a>&nbsp;
   <a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-m--ali--swe-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
@@ -33,7 +35,7 @@
   <a href="mailto:muhammadali5.swe@gmail.com">
     <img src="https://img.shields.io/badge/Email-muhammadali5.swe@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" />
   </a>&nbsp;
-  <img src="https://img.shields.io/badge/Location-Lahore%2C%20Pakistan-0d0221?style=for-the-badge&logo=googlemaps&logoColor=0e75b6&labelColor=000000" alt="Location" />
+  <img src="https://img.shields.io/badge/Location-Lahore%2C%20Pakistan-003366?style=for-the-badge&logo=googlemaps&logoColor=00d2ff&labelColor=000000" alt="Location" />
 </p>
 
 </div>
@@ -120,7 +122,7 @@ I am a **Full-Stack Software Engineer** specializing in architecting complex, pr
 
 <tr>
 <td>
-🎓 <b><a href="https://campus.m-ali-swe.tech">UniFlow URP v2.0</a></b><br/>
+🎓 <b><a href="https://campus.m-ali-swe.tech">Campus URP v2.0</a></b><br/>
 <i>Enterprise University Resource Planning</i><br/><br/>
 <a href="https://campus.m-ali-swe.tech">🔗 Live Platform</a>
 </td>
@@ -317,13 +319,17 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 <div align="center">
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=m-ali-swe&show_icons=true&locale=en&theme=dracula&hide_border=true&bg_color=0d0221&title_color=0e75b6&icon_color=0e75b6&text_color=e6e6e6" alt="GitHub Stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=m-ali-swe&locale=en&mode=daily&theme=dracula&hide_border=true&background=0d0221&stroke=0e75b6&ring=0e75b6&fire=0e75b6&currStreakLabel=0e75b6" alt="Commit Streak" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=m-ali-swe&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=m-ali-swe&theme=tokyonight&hide_border=true" alt="Commit Streak" />
+</p>
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-ali-swe&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 <!-- Snake Contribution Activity Graphic -->
 <p align="center">
-  <b>Contribution Activity Graph</b><br/>
+  <b>Real GitHub Contribution Activity Graph (Snake Animation)</b><br/>
   <img src="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/snake-output/snake.svg" alt="Snake Contribution Graph" width="100%" />
 </p>
 
@@ -339,8 +345,8 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 
 <div align="center">
 
-<a href="https://campus.m-ali-swe.tech" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/UniFlow_URP-campus.m--ali--swe.tech-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" />
+<a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Portfolio-m--ali--swe.tech-0077b5?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" />
 </a>&nbsp;
 <a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/LinkedIn-m--ali--swe-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" />
@@ -356,13 +362,13 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 
 <br/>
 
-<!-- Waving Capsule Footer with fadeIn animation -->
+<!-- Vibrant Glowing Cyan / Cobalt Waving Capsule Footer -->
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:0e75b6,100:0d0221&height=100&section=footer&animation=fadeIn&stroke=0E75B6&strokeWidth=1.5" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:e6f2ff,50:0e75b6,100:e6f2ff&height=100&section=footer&animation=fadeIn&stroke=0E75B6&strokeWidth=1.5" />
-  <img src="assets/hero-banner.png" width="100%" alt="Footer Banner" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=100&section=footer&animation=twinkling&stroke=00D2FF&strokeWidth=2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=100&section=footer&animation=twinkling&stroke=0052D4&strokeWidth=2" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=100&section=footer&animation=twinkling&stroke=00D2FF&strokeWidth=2" width="100%" alt="Footer Banner" />
 </picture>
 
 **Architecting Scalable Systems • Engineering Intelligent Solutions**
