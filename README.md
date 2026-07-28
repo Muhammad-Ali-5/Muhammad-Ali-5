@@ -1,30 +1,29 @@
 <div align="center">
 
-<!-- High-Resolution Professional Systems Architecture Banner -->
-<img src="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/main/assets/hero-banner.png" width="100%" alt="Muhammad Ali — Systems Architecture Banner" />
+<!-- High-Resolution Systems Architecture Hero Banner -->
+<img src="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/main/assets/hero-banner.png" width="100%" alt="Muhammad Ali — Systems Architecture Hero Banner" />
 
 <br/><br/>
 
-<!-- Crisp Static Professional Title -->
-<h1>Muhammad Ali</h1>
-<h3>Full-Stack Software Engineer & Systems Architect</h3>
+<!-- Capsule Render Glowing Blur Header for Name -->
+<img src="https://capsule-render.vercel.app/api?type=blur&text=Muhammad%20Ali&color=0:003366,50:0077b5,100:00D2FF&fontSize=52&fontColor=FFFFFF&height=150" width="100%" alt="Muhammad Ali Blur Header" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Location-Lahore%2C%20Pakistan-003366?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=000000" alt="Location" />
-  <img src="https://komarev.com/ghpvc/?username=m-ali-swe&label=Profile%20Views&color=0e75b6&style=for-the-badge&labelColor=000000" alt="Profile Views" />
-</p>
+<h3>Full-Stack Software Engineer</h3>
+<p><i>Building Production Web Applications, Constraint Optimization Solvers & Agentic AI Workflows</i></p>
 
-<!-- Clean CTA Action Row -->
+<br/>
+
+<!-- Social & Portfolio Links -->
 <p align="center">
   <a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Portfolio-m--ali--swe.tech-0e75b6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfolio" />
-  </a>
+    <img src="https://img.shields.io/badge/Portfolio-m--ali--swe.tech-0077b5?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfolio" />
+  </a>&nbsp;
   <a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-m--ali--swe-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
-  </a>
+  </a>&nbsp;
   <a href="https://github.com/m-ali-swe" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GitHub-m--ali--swe-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub" />
-  </a>
+  </a>&nbsp;
   <a href="mailto:muhammadali5.swe@gmail.com">
     <img src="https://img.shields.io/badge/Email-muhammadali5.swe@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" />
   </a>
@@ -37,61 +36,32 @@
 ---
 
 <!-- ============================================================ -->
-<!-- ABOUT ME SUMMARY -->
+<!-- PROFESSIONAL SUMMARY -->
 <!-- ============================================================ -->
 
-## 👨‍💻 About Me
+## 👨‍💻 Professional Summary
 
-```yaml
-engineer: "Muhammad Ali"
-role: "Full-Stack Software Engineer & Systems Architect"
-academics: "B.S. in Computer Science | Lahore Garrison University (LGU), Lahore, Pakistan"
-contact: "+92-328-4983021 | muhammadali5.swe@gmail.com"
-focus:
-  - "Distributed Microservices & Modular Monolith Architecture"
-  - "Constraint-Based Optimization (Google OR-Tools CP-SAT)"
-  - "Stateful Multi-Agent AI Orchestration (LangGraph / Model Context Protocol)"
-  - "High-Concurrency Real-Time Systems (SSE / WebSockets / PostgreSQL)"
-```
-
-I am a **Full-Stack Software Engineer** specializing in architecting complex, production-grade software applications. My engineering focus centers on **solving complex algorithmic and system architectural challenges**—from constraint-based automated schedule solvers and zero-trust transaction execution engines to stateful multi-agent LLM orchestration.
+Full-Stack Software Engineer and final-year Computer Science student at **Lahore Garrison University (CGPA 3.94 / 4.0)**. Experienced in architecting and deploying full-stack web applications using **Next.js**, **FastAPI**, and the **MERN stack**. Specialized in relational database modeling, containerization with **Docker**, constraint-based optimization using **Google OR-Tools**, and multi-agent AI orchestration via **LangGraph**.
 
 ---
 
 <!-- ============================================================ -->
-<!-- TECHNICAL ARCHITECTURE MATRIX -->
+<!-- TECHNICAL SKILLS -->
 <!-- ============================================================ -->
 
-## 🛠️ Tech Stack & Architecture
+## 🛠️ Technical Skills
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🌐 Distributed Systems & Backend Engineering
-- **Languages**: TypeScript, JavaScript, Python (3.11+), PHP, C++
-- **Frontend**: Next.js 16/15 (App Router), React 19, Tailwind CSS v4, Zustand, TanStack Query, Shadcn/UI
-- **Backend & APIs**: FastAPI, Node.js, Express.js, Async SQLAlchemy 2.0, Pydantic, RESTful APIs, WebSockets, Server-Sent Events (SSE)
-- **Databases**: PostgreSQL, MySQL, MongoDB, SQLite, Relational Data Modeling, Migrations (Alembic)
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 AI Systems & Operations Research
-- **AI Orchestration**: LangGraph, LangChain, Multi-Agent Systems, Model Context Protocol (MCP)
-- **LLM Integrations**: OpenAI SDK, Google Gemini SDK, Real-Time SSE Token Streaming
-- **Operations Research**: Google OR-Tools (`ortools` CP-SAT Solver), Recursive Backtracking
-- **Computer Vision**: OpenCV, YOLOv8, Image Processing Pipelines
-- **DevOps**: Docker, Docker Compose, Git/GitHub Actions, Linux (Ubuntu), VPS Hosting
-
-</td>
-</tr>
-</table>
+- **Languages**: JavaScript, TypeScript, Python (3.11+), PHP, HTML/CSS, C++
+- **Frontend**: Next.js, React, Tailwind CSS, Zustand, TanStack Query, Shadcn/UI, SEO Optimization
+- **Backend**: FastAPI (Python), Node.js, Express.js (MERN), SQLAlchemy, Pydantic, RESTful APIs, WebSockets, SSE
+- **Databases**: PostgreSQL, MySQL, MongoDB, Relational Data Modeling, Migrations (Alembic)
+- **AI & Orchestration**: LangGraph, LangChain, Multi-Agent Systems, OpenAI & Gemini SDKs, Model Context Protocol (MCP)
+- **DevOps & Architecture**: Docker, Docker Compose, Git/GitHub, Linux (Ubuntu), VPS Hosting, Stateful JWT Auth, RBAC, Modular Monoliths
 
 <br/>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,nextjs,react,tailwind,fastapi,nodejs,express,postgres,mongodb,docker,git,linux" height="48" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,nextjs,react,tailwind,fastapi,nodejs,express,postgres,mongodb,docker,git,linux" height="46" alt="Technical Stack Icons" />
 </div>
 
 <br/>
@@ -107,22 +77,22 @@ I am a **Full-Stack Software Engineer** specializing in architecting complex, pr
 <table>
 <tr>
 <th align="left" width="35%">Project</th>
-<th align="left" width="45%">Architectural Highlights</th>
+<th align="left" width="45%">Engineering Breakthroughs</th>
 <th align="left" width="20%">Tech Stack</th>
 </tr>
 
 <tr>
 <td>
 🎓 <b><a href="https://campus.m-ali-swe.tech">Campus URP</a></b><br/>
-<i>University Resource Planning Platform</i>
+<i>Enterprise Campus Super-App</i>
 </td>
 <td>
-Modular campus super-app integrating 7 master subsystems:
+Modular campus management super-app integrating 7 specialized subsystems:
 <ul>
-  <li><b>IAM & Security</b>: Dual-identity auth with rotatable PostgreSQL refresh tokens and session revocation.</li>
-  <li><b>Timetable Auto-Scheduler</b>: Google OR-Tools CP-SAT solver resolving faculty, room, and cohort constraints.</li>
-  <li><b>Cafe POS Engine</b>: Zero-trust financial engine with bounded wallet deductions and KDS sync.</li>
-  <li><b>OPAC Library</b>: Finite state machine governing item verification and circulation.</li>
+  <li><b>IAM & Auth</b>: Dual-identity authentication (Roll Numbers & Faculty Emails) with statefully tracked, rotatable refresh tokens in PostgreSQL and session revocation.</li>
+  <li><b>Timetable Auto-Scheduler</b>: Constraint-based scheduler using Google OR-Tools CP-SAT solver and backtracking to resolve room, faculty, and cohort conflicts.</li>
+  <li><b>Cafe POS KDS Engine</b>: Zero-trust financial execution engine handling idempotency, bounded digital wallet deductions, and real-time KDS synchronization.</li>
+  <li><b>OPAC Library & Lost & Found</b>: Finite state machine securely managing item verification and book circulation.</li>
 </ul>
 </td>
 <td>
@@ -137,36 +107,14 @@ Modular campus super-app integrating 7 master subsystems:
 
 <tr>
 <td>
-🏥 <b><a href="https://phc-gaza.vercel.app">PHC Gaza Command Center</a></b><br/>
-<i>Crisis Operations Platform</i>
+🤖 <b><a href="https://github.com/m-ali-swe/multimodal-ai-assistant">Multimodal AI Chatbot</a></b><br/>
+<i>Conversational AI Assistant</i>
 </td>
 <td>
-Macro-level crisis management platform for healthcare infrastructure damage assessment, supply logistics tracking, and intervention planning.
-<ul>
-  <li>GIS routing models and primary healthcare damage metrics.</li>
-  <li>Cell-based analytics matrix for supply allocation and economic impact.</li>
-</ul>
-</td>
-<td>
-<code>Next.js 16</code><br/>
-<code>React 19</code><br/>
-<code>TypeScript</code><br/>
-<code>Tailwind CSS v4</code><br/>
-<code>Recharts</code><br/>
-<code>Framer Motion</code>
-</td>
-</tr>
-
-<tr>
-<td>
-🤖 <b><a href="https://github.com/m-ali-swe/multimodal-ai-assistant">Multimodal AI Assistant</a></b><br/>
-<i>Agentic Conversational Engine</i>
-</td>
-<td>
-Multimodal conversational interface managing dialog state persistence in PostgreSQL.
+Multimodal conversational interface with PostgreSQL dialog state persistence.
 <ul>
   <li>Server-Sent Events (SSE) integration for real-time LLM token streaming.</li>
-  <li>Stateful chat history retrieval for low-latency multi-turn sessions.</li>
+  <li>Stateful chat history retrieval for low-latency multi-turn sessions across sessions.</li>
 </ul>
 </td>
 <td>
@@ -181,14 +129,10 @@ Multimodal conversational interface managing dialog state persistence in Postgre
 <tr>
 <td>
 👁️ <b><a href="https://github.com/m-ali-swe/visiontrack-cv">VisionTrack CV</a></b><br/>
-<i>AI Attendance & Analytics Pipeline</i>
+<i>AI Attendance System</i>
 </td>
 <td>
-Computer vision pipeline for automated multi-face batch attendance scoring with real-time analytics.
-<ul>
-  <li>High-throughput OpenCV frame extraction coupled with YOLOv8 face detection.</li>
-  <li>Confidence scoring engine with SQLite audit logging.</li>
-</ul>
+Live analytics GUI dashboard and optimized OpenCV/YOLOv8 image processing pipeline for automated multi-face batch attendance with confidence scoring.
 </td>
 <td>
 <code>Python 3.11</code><br/>
@@ -204,7 +148,7 @@ Computer vision pipeline for automated multi-face batch attendance scoring with 
 <i>Official Campus Ticketing Infrastructure</i>
 </td>
 <td>
-Architected and developed the official LGU Support Portal (`support.lgu.edu.pk`) from scratch, digitizing campus facility and IT ticketing across university departments.
+Architected and developed the official LGU Support Portal (`support.lgu.edu.pk`) from scratch using Next.js and FastAPI to digitize campus facility and IT ticketing.
 </td>
 <td>
 <code>Next.js</code><br/>
@@ -220,7 +164,7 @@ Architected and developed the official LGU Support Portal (`support.lgu.edu.pk`)
 <i>Academic Publishing Platform</i>
 </td>
 <td>
-Spearheaded feature expansion for the official LGU Research Portal (`research.lgu.edu.pk`), enhancing academic journal publishing capacity and scholar connectivity.
+Spearheaded feature expansion for the official LGU Research Portal (`research.lgu.edu.pk`) using PHP, enhancing journal publishing capacity and scholar connectivity.
 </td>
 <td>
 <code>PHP</code><br/>
@@ -233,9 +177,9 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 
 <br/>
 
-<!-- Collapsible Secondary Projects Accordion -->
+<!-- Secondary Projects Accordion -->
 <details>
-<summary><b>🔍 View Additional Open-Source Projects</b></summary>
+<summary><b>🔍 View Additional Engineering Repositories</b></summary>
 <br/>
 
 <table>
@@ -275,18 +219,28 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 ---
 
 <!-- ============================================================ -->
-<!-- EXPERIENCE & ACADEMIC HONORS -->
+<!-- PROFESSIONAL EXPERIENCE -->
 <!-- ============================================================ -->
 
-## 💼 Experience & Academic Honors
+## 💼 Professional Experience
 
-### 💼 Professional Experience
-- **Full-Stack Software Engineer Intern** | Lahore Garrison University (LGU) *(April 2026 – July 2026 | Lahore, Pakistan)*
-  - Developed `support.lgu.edu.pk` (Next.js + FastAPI) and expanded features for `research.lgu.edu.pk` (PHP + MySQL).
+**Full-Stack Software Engineer Intern** | Lahore Garrison University (LGU)  
+*April 2026 – July 2026 | Lahore, Pakistan*
 
-### 🎓 Academic Honors & Distinctions
-- **B.S. in Computer Science** | Lahore Garrison University (LGU) *(03/2023 – Present)*
-  - **Academic Rank**: Batch Topper / Expected Gold Medalist
+- Architected and developed the official LGU Support Portal (`support.lgu.edu.pk`) from scratch using Next.js and FastAPI to digitize campus facility and IT ticketing.
+- Spearheaded the feature expansion of the newly launched LGU Research Portal (`research.lgu.edu.pk`) using PHP, enhancing academic journal publishing capacity.
+
+---
+
+<!-- ============================================================ -->
+<!-- EDUCATION & CERTIFICATIONS -->
+<!-- ============================================================ -->
+
+## 🎓 Education & Certifications
+
+### 🎓 Education
+- **B.S. in Computer Science** — Lahore Garrison University (LGU), Lahore, Pakistan *(03/2023 – Present)*
+  - **Academic Standing**: Batch Topper / Expected Gold Medalist
   - **Cumulative GPA**: **3.94 / 4.0**
 
 ### 📜 Certifications
@@ -296,55 +250,22 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 ---
 
 <!-- ============================================================ -->
-<!-- CONTRIBUTION ACTIVITY GRAPH -->
+<!-- REAL-TIME CONTRIBUTION ACTIVITY -->
 <!-- ============================================================ -->
 
-## 📈 GitHub Contribution Activity
+## 📈 Contribution Activity
 
 <div align="center">
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/snake-output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/snake-output/snake.svg">
-    <img alt="Real GitHub Contribution Snake Graph" src="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/snake-output/snake-dark.svg" width="100%">
-  </picture>
-</p>
-
-</div>
-
----
-
-<!-- ============================================================ -->
-<!-- CONNECT WITH ME -->
-<!-- ============================================================ -->
-
-## 🌍 Connect With Me
-
-<div align="center">
-
-<p align="center">
-  <a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Portfolio-Visit_Website-0e75b6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfolio" />
-  </a>
-  <a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/m-ali-swe" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub" />
-  </a>
-  <a href="mailto:muhammadali5.swe@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" />
-  </a>
-</p>
-
-<br/>
-
-<!-- Vibrant Glowing Blue Footer Banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=100&section=footer&stroke=00D2FF&strokeWidth=2" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=100&section=footer&stroke=0052D4&strokeWidth=2" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00d2ff&height=100&section=footer&stroke=00D2FF&strokeWidth=2" width="100%" alt="Footer Banner" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/snake-output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/snake-output/snake.svg">
+  <img alt="Real GitHub Contribution Snake Graph" src="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/snake-output/snake-dark.svg" width="100%">
 </picture>
+
+<br/><br/>
+
+<!-- Flipped High-Contrast Glowing Wave Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00D2FF&height=120&section=footer&reversal=true&stroke=00D2FF&strokeWidth=2" width="100%" alt="Footer Wave" />
 
 </div>
