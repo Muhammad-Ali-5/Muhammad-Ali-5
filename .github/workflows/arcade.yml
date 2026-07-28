@@ -20,9 +20,33 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: 'pacman,breakout,galaga,puzzle-bobble,bomberman'
+          games: 'pacman'
 
-      - name: push contribution-graph.svg to the output branch
+      - name: generate breakout-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: 'breakout'
+
+      - name: generate galaga-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: 'galaga'
+
+      - name: generate puzzle-bobble-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: 'puzzle-bobble'
+
+      - name: generate bomberman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: 'bomberman'
+
+      - name: push contribution graphs to pacman-output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: pacman-output

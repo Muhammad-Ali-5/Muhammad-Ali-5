@@ -1,7 +1,20 @@
 <div align="center">
 
-<!-- Waving Capsule Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:0e75b6,100:0d0221&height=220&text=Muhammad+Ali&fontSize=42&fontColor=FFFFFF&fontAlignY=32&desc=Full-Stack+Software+Engineer+%7C+Next.js,+FastAPI,+MERN+%26+Agentic+AI&descAlignY=55&descSize=14" width="100%"/>
+<!-- 
+  ============================================================
+  PROFESSIONAL ANIMATION & EFFECT OPTIONS (capsule-render & SVG):
+  - animation: fadeIn | scaleIn | twinkling | blinking | venom | rainbow
+  - stroke: hex color (e.g. 0E75B6) for crisp glowing border outlines
+  - strokeWidth: 1 to 5
+  - prefers-color-scheme: Dark/Light auto-switching via <picture> tag
+  ============================================================
+-->
+<!-- Waving Capsule Header with fadeIn animation & stroke accent -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:0e75b6,100:0d0221&height=220&section=header&text=Muhammad+Ali&animation=fadeIn&stroke=0E75B6&strokeWidth=1&fontSize=42&fontColor=FFFFFF&fontAlignY=32&desc=Full-Stack+Software+Engineer+%7C+Next.js,+FastAPI,+MERN+%26+Agentic+AI&descAlignY=55&descSize=14" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:e6f2ff,50:0e75b6,100:e6f2ff&height=220&section=header&text=Muhammad+Ali&animation=fadeIn&stroke=0E75B6&strokeWidth=1&fontSize=42&fontColor=0d0221&fontAlignY=32&desc=Full-Stack+Software+Engineer+%7C+Next.js,+FastAPI,+MERN+%26+Agentic+AI&descAlignY=55&descSize=14" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:0e75b6,100:0d0221&height=220&section=header&text=Muhammad+Ali&animation=fadeIn&stroke=0E75B6&strokeWidth=1&fontSize=42&fontColor=FFFFFF&fontAlignY=32&desc=Full-Stack+Software+Engineer+%7C+Next.js,+FastAPI,+MERN+%26+Agentic+AI&descAlignY=55&descSize=14" width="100%" alt="Header Banner" />
+</picture>
 
 <!-- Animated Typing Line -->
 <a href="#">
@@ -455,10 +468,14 @@ focus: "Enterprise campus super-apps, stateful multi-agent AI systems & high-con
 
 <br/>
 
-<!-- Waving Capsule Footer -->
+<!-- Waving Capsule Footer with fadeIn animation -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:0e75b6,100:0d0221&height=100&section=footer"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:0e75b6,100:0d0221&height=100&section=footer&animation=fadeIn&stroke=0E75B6&strokeWidth=1" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:e6f2ff,50:0e75b6,100:e6f2ff&height=100&section=footer&animation=fadeIn&stroke=0E75B6&strokeWidth=1" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:0e75b6,100:0d0221&height=100&section=footer&animation=fadeIn&stroke=0E75B6&strokeWidth=1" width="100%" alt="Footer Banner" />
+</picture>
 
 ⭐ **Thanks for visiting my profile repository — let's build something intelligent together!**
 
