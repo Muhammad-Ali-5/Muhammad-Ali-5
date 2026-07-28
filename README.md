@@ -5,29 +5,15 @@
 
 <br/><br/>
 
-<!-- Wide Glowing Blur Header Banner for Name -->
-<img src="https://capsule-render.vercel.app/api?type=blur&text=Muhammad%20Ali&color=0:0052D4,30:0077b5,70:00D2FF,100:0052D4&fontSize=56&fontColor=FFFFFF&fontAlignY=45&height=140" width="100%" alt="Muhammad Ali" />
+<!-- Enhanced Deep Sky Blue Glowing Blur Banner -->
+<img src="https://capsule-render.vercel.app/api?type=blur&text=Muhammad%20Ali&color=0:003366,30:00BFFF,70:00D2FF,100:003366&fontSize=56&fontColor=FFFFFF&fontAlignY=36&desc=Full-Stack%20Software%20Engineer%20%7C%20Systems%20Architect&descAlignY=64&descSize=16&descColor=00D2FF&height=180" width="100%" alt="Muhammad Ali" />
 
-<h3>Full-Stack Software Engineer | Systems Architect</h3>
 <p><b>Next.js • FastAPI • PostgreSQL • Agentic AI (LangGraph) • MERN Stack</b></p>
 
 <br/>
 
-<!-- Modern Premium Action Badges -->
-<p align="center">
-  <a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Portfolio-m--ali--swe.tech-0077B5?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" alt="Portfolio" />
-  </a>&nbsp;
-  <a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-m--ali--swe-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
-  </a>&nbsp;
-  <a href="https://github.com/m-ali-swe" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-m--ali--swe-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub" />
-  </a>&nbsp;
-  <a href="mailto:muhammadali5.swe@gmail.com">
-    <img src="https://img.shields.io/badge/Email-muhammadali5.swe@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" />
-  </a>
-</p>
+<!-- Modern Premium Action Badges (Without Link Underlines) -->
+<p align="center"><a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-m--ali--swe.tech-0077B5?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-m--ali--swe-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://github.com/m-ali-swe" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-m--ali--swe-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub" /></a>&nbsp;&nbsp;<a href="mailto:muhammadali5.swe@gmail.com"><img src="https://img.shields.io/badge/Email-muhammadali5.swe@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" /></a></p>
 
 </div>
 
@@ -51,15 +37,15 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 
 ## 🛠️ Technical Skills & Architecture Matrix
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 
 ### 💻 Frontend & UI Engineering
 - **Core Languages**: TypeScript, JavaScript, HTML5, CSS3
-- **Frameworks**: Next.js 16/15 (App Router), React 19
+- **Frameworks**: Next.js 16/15 (App Router & SEO Optimization), React 19
 - **Styling & UI**: Tailwind CSS v4, Shadcn/UI, Framer Motion
-- **State & Data**: Zustand, TanStack Query, SEO Optimization
+- **State & Performance**: Zustand, TanStack Query, Code Splitting
 
 ### ⚙️ Backend & Real-Time APIs
 - **Core Stack**: FastAPI (Python 3.11+), Node.js, Express.js (MERN)
@@ -100,7 +86,7 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 
 ## 📂 Featured Projects
 
-<table>
+<table width="100%">
 <tr>
 <th align="left" width="35%">Project</th>
 <th align="left" width="45%">Engineering Breakthroughs</th>
@@ -208,7 +194,7 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 <summary><b>🔍 View Additional Engineering Repositories</b></summary>
 <br/>
 
-<table>
+<table width="100%">
 <tr>
 <th align="left">Project</th>
 <th align="left">Description</th>
