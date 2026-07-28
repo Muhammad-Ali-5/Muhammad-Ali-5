@@ -55,13 +55,13 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 ### 💻 Frontend & UI Engineering
 - **Core Languages**: TypeScript, JavaScript, HTML5, CSS3
 - **Frameworks**: Next.js 16/15 (App Router), React 19
-- **Styling & Components**: Tailwind CSS v4, Shadcn/UI, Framer Motion
+- **Styling & UI**: Tailwind CSS v4, Shadcn/UI, Framer Motion
 - **State & Data**: Zustand, TanStack Query, SEO Optimization
 
 ### ⚙️ Backend & Real-Time APIs
-- **Core Stack**: FastAPI (Python 3.11+), Node.js, Express.js
+- **Core Stack**: FastAPI (Python 3.11+), Node.js, Express.js (MERN)
 - **ORMs & Validation**: Async SQLAlchemy 2.0, Pydantic
-- **Real-Time Architecture**: WebSockets, Server-Sent Events (SSE), RESTful APIs
+- **Real-Time Infrastructure**: WebSockets, Server-Sent Events (SSE), RESTful APIs
 
 </td>
 <td width="50%" valign="top">
@@ -69,8 +69,8 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 ### 🗄️ Databases & Infrastructure
 - **Relational Databases**: PostgreSQL, MySQL, SQLite
 - **NoSQL Databases**: MongoDB
-- **DevOps & Containers**: Docker, Docker Compose, Git/GitHub Actions, Linux (Ubuntu), VPS Hosting
-- **Security & Patterns**: Stateful JWT Auth, RBAC, Modular Monoliths
+- **DevOps & Hosting**: Docker, Docker Compose, Git/GitHub Actions, Linux (Ubuntu), VPS Hosting
+- **Architecture & Security**: Stateful JWT Auth, RBAC, Modular Monoliths
 
 ### 🤖 Agentic AI & Operations Research
 - **AI Orchestration**: LangGraph, LangChain, Multi-Agent Systems, Model Context Protocol (MCP)
@@ -105,11 +105,11 @@ Full-Stack Software Engineer and final-year Computer Science student at Lahore G
 </tr>
 
 <tr>
-<td>
+<td valign="top">
 🎓 <b><a href="https://campus.m-ali-swe.tech">Campus URP</a></b><br/>
 <i>Enterprise Campus Super-App</i>
 </td>
-<td>
+<td valign="top">
 Modular campus management super-app integrating 7 specialized subsystems:
 <ul>
   <li><b>IAM & Auth</b>: Dual-identity authentication (Roll Numbers & Faculty Emails) with statefully tracked, rotatable refresh tokens in PostgreSQL and session revocation.</li>
@@ -118,7 +118,7 @@ Modular campus management super-app integrating 7 specialized subsystems:
   <li><b>OPAC Library & Lost & Found</b>: Finite state machine securely managing item verification and book circulation.</li>
 </ul>
 </td>
-<td>
+<td valign="top">
 <code>Next.js 16</code><br/>
 <code>FastAPI</code><br/>
 <code>PostgreSQL</code><br/>
@@ -129,18 +129,18 @@ Modular campus management super-app integrating 7 specialized subsystems:
 </tr>
 
 <tr>
-<td>
+<td valign="top">
 🤖 <b><a href="https://github.com/m-ali-swe/multimodal-ai-assistant">Multimodal AI Chatbot</a></b><br/>
 <i>Conversational AI Assistant</i>
 </td>
-<td>
+<td valign="top">
 Multimodal conversational interface with PostgreSQL dialog state persistence.
 <ul>
   <li>Server-Sent Events (SSE) integration for real-time LLM token streaming.</li>
   <li>Stateful chat history retrieval for low-latency multi-turn sessions across sessions.</li>
 </ul>
 </td>
-<td>
+<td valign="top">
 <code>Next.js</code><br/>
 <code>FastAPI</code><br/>
 <code>OpenAI / Gemini SDKs</code><br/>
@@ -150,14 +150,14 @@ Multimodal conversational interface with PostgreSQL dialog state persistence.
 </tr>
 
 <tr>
-<td>
-👁️ <b><a href="https://github.com/m-ali-swe/visiontrack-cv">VisionTrack CV</a></b><br/>
+<td valign="top">
+📹 <b><a href="https://github.com/m-ali-swe/visiontrack-cv">VisionTrack CV</a></b><br/>
 <i>AI Attendance System</i>
 </td>
-<td>
+<td valign="top">
 Live analytics GUI dashboard and optimized OpenCV/YOLOv8 image processing pipeline for automated multi-face batch attendance with confidence scoring.
 </td>
-<td>
+<td valign="top">
 <code>Python 3.11</code><br/>
 <code>OpenCV</code><br/>
 <code>YOLOv8</code><br/>
@@ -166,14 +166,14 @@ Live analytics GUI dashboard and optimized OpenCV/YOLOv8 image processing pipeli
 </tr>
 
 <tr>
-<td>
+<td valign="top">
 🏢 <b><a href="https://support.lgu.edu.pk">LGU Support Portal</a></b><br/>
 <i>Official Campus Ticketing Infrastructure</i>
 </td>
-<td>
+<td valign="top">
 Architected and developed the official LGU Support Portal (`support.lgu.edu.pk`) from scratch using Next.js and FastAPI to digitize campus facility and IT ticketing.
 </td>
-<td>
+<td valign="top">
 <code>Next.js</code><br/>
 <code>FastAPI</code><br/>
 <code>PostgreSQL</code><br/>
@@ -182,14 +182,14 @@ Architected and developed the official LGU Support Portal (`support.lgu.edu.pk`)
 </tr>
 
 <tr>
-<td>
+<td valign="top">
 📚 <b><a href="https://research.lgu.edu.pk">LGU Research Portal</a></b><br/>
 <i>Academic Publishing Platform</i>
 </td>
-<td>
+<td valign="top">
 Spearheaded feature expansion for the official LGU Research Portal (`research.lgu.edu.pk`) using PHP, enhancing journal publishing capacity and scholar connectivity.
 </td>
-<td>
+<td valign="top">
 <code>PHP</code><br/>
 <code>MySQL</code><br/>
 <code>Bootstrap 5</code>
@@ -212,29 +212,29 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 <th align="left">Stack</th>
 </tr>
 <tr>
-<td><b>Aether AI SEO Engine</b></td>
-<td>Automated SEO analysis and content optimization platform utilizing LLM insights.</td>
-<td><code>Next.js</code> <code>Python</code> <code>FastAPI</code></td>
+<td valign="top"><b>Aether AI SEO Engine</b></td>
+<td valign="top">Automated SEO analysis and content optimization platform utilizing LLM insights.</td>
+<td valign="top"><code>Next.js</code> <code>Python</code> <code>FastAPI</code></td>
 </tr>
 <tr>
-<td><b>Apex Commerce Suite</b></td>
-<td>High-concurrency e-commerce architecture with inventory ledger synchronization.</td>
-<td><code>React</code> <code>Node.js</code> <code>PostgreSQL</code></td>
+<td valign="top"><b>Apex Commerce Suite</b></td>
+<td valign="top">High-concurrency e-commerce architecture with inventory ledger synchronization.</td>
+<td valign="top"><code>React</code> <code>Node.js</code> <code>PostgreSQL</code></td>
 </tr>
 <tr>
-<td><b>Orbit SaaS Platform</b></td>
-<td>Multi-tenant SaaS boilerplate with RBAC and stripe subscription billing.</td>
-<td><code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code></td>
+<td valign="top"><b>Orbit SaaS Platform</b></td>
+<td valign="top">Multi-tenant SaaS boilerplate with RBAC and stripe subscription billing.</td>
+<td valign="top"><code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code></td>
 </tr>
 <tr>
-<td><b>POSIX OS Toolkit (C++)</b></td>
-<td>Low-level POSIX process scheduling and memory management simulations in C++.</td>
-<td><code>C++17</code> <code>POSIX</code> <code>Linux</code></td>
+<td valign="top"><b>POSIX OS Toolkit (C++)</b></td>
+<td valign="top">Low-level POSIX process scheduling and memory management simulations in C++.</td>
+<td valign="top"><code>C++17</code> <code>POSIX</code> <code>Linux</code></td>
 </tr>
 <tr>
-<td><b>Lumina Cloud Gallery</b></td>
-<td>Distributed image gallery with cloud storage integration and metadata indexing.</td>
-<td><code>React</code> <code>FastAPI</code> <code>Cloudinary</code></td>
+<td valign="top"><b>Lumina Cloud Gallery</b></td>
+<td valign="top">Distributed image gallery with cloud storage integration and metadata indexing.</td>
+<td valign="top"><code>React</code> <code>FastAPI</code> <code>Cloudinary</code></td>
 </tr>
 </table>
 </details>
@@ -288,7 +288,16 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 
 <br/><br/>
 
-<!-- Flipped High-Contrast Glowing Wave Footer -->
+<!-- Executive Closing Section & Footer Banner -->
+<p align="center">
+  <a href="https://m-ali-swe.tech" target="_blank" rel="noopener noreferrer"><b>Portfolio</b></a> &nbsp;•&nbsp;
+  <a href="https://linkedin.com/in/m-ali-swe" target="_blank" rel="noopener noreferrer"><b>LinkedIn</b></a> &nbsp;•&nbsp;
+  <a href="https://github.com/m-ali-swe" target="_blank" rel="noopener noreferrer"><b>GitHub</b></a> &nbsp;•&nbsp;
+  <a href="mailto:muhammadali5.swe@gmail.com"><b>Email</b></a>
+</p>
+
+<br/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:0077b5,100:00D2FF&height=120&section=footer&reversal=true&stroke=00D2FF&strokeWidth=2" width="100%" alt="Footer Wave" />
 
 </div>
