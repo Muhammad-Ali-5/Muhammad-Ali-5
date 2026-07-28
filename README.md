@@ -25,7 +25,7 @@
 <!-- PROFESSIONAL SUMMARY -->
 <!-- ============================================================ -->
 
-## 👨‍💻 Professional Summary
+## ⚡ Professional Summary
 
 Full-Stack Software Engineer and final-year Computer Science student at Lahore Garrison University (CGPA 3.94 / 4.0). Experienced in architecting and deploying full-stack web applications using Next.js, FastAPI, and the MERN stack. Specialized in relational database modeling, containerization with Docker, building high-concurrency real-time systems (SSE/WebSockets), and stateful multi-agent AI orchestration via LangGraph.
 
