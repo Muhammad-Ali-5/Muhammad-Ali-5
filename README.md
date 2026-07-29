@@ -223,7 +223,7 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 <tr>
 <td valign="top"><b>Lumina Cloud Gallery</b></td>
 <td valign="top">Cloud image gallery with metadata indexing.</td>
-<td valign="top"><code>Next.js</code> <code>React</code> <code>Tailwind</code></td>
+<td valign="top"><code>Next.js</code> <code>Cloudinary</code> <code>Tailwind</code></td>
 </tr>
 </table>
 </details>
