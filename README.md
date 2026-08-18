@@ -27,7 +27,7 @@
 
 ## ⚡ Professional Summary
 
-Full-Stack Software Engineer and final-year Computer Science student at Lahore Garrison University (CGPA 3.94 / 4.0). Experienced in architecting and deploying full-stack web applications using Next.js, FastAPI, and the MERN stack. Specialized in relational database modeling, containerization with Docker, building high-concurrency real-time systems (SSE/WebSockets), and stateful multi-agent AI orchestration via LangGraph.
+Full-Stack Software Engineer specializing in architecting and deploying high-performance web applications using Next.js, FastAPI, and PostgreSQL. Proven track record of engineering complex enterprise-grade systems—ranging from deep relational database modeling and Docker containerization to building high-concurrency real-time pipelines (SSE/WebSockets) and stateful multi-agent AI orchestration via LangGraph.
 
 ---
 
@@ -251,7 +251,7 @@ Spearheaded feature expansion for the official LGU Research Portal (`research.lg
 ## 🎓 Education & Certifications
 
 ### 🎓 Education
-- **B.S. in Computer Science** — Lahore Garrison University (LGU), Lahore, Pakistan *(03/2023 – Present)*
+- **B.S. in Computer Science** — Lahore Garrison University (LGU), Lahore, Pakistan *(2023 – 2027)*
   - **Academic Standing**: Batch Topper / Expected Gold Medalist
   - **Cumulative GPA**: **3.94 / 4.0**
 
