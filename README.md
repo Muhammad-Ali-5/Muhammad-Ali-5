@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- High-Resolution Systems Architecture Hero Banner -->
-<img src="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/main/assets/hero-banner.png" width="100%" alt="Muhammad Ali — AI Systems Engineer Hero Banner" />
+<img src="https://capsule-render.vercel.app/api?type=blur&text=Muhammad%20Ali&color=0:003366,30:00BFFF,70:00D2FF,100:003366&fontSize=56&fontColor=FFFFFF&fontAlignY=36&desc=Full-Stack%20Software%20Engineer%20%7C%20Systems%20Architect&descAlignY=64&descSize=16&descColor=00D2FF&height=180" width="100%" alt="Muhammad Ali" />
 
 <br/><br/>
 
