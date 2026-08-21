@@ -27,7 +27,7 @@
 
 ## ⚡ Professional Summary
 
-Full-Stack Software Engineer specializing in architecting and deploying high-performance web applications using Next.js, FastAPI, and PostgreSQL. Proven track record of engineering complex enterprise-grade systems—ranging from deep relational database modeling and Docker containerization to building high-concurrency real-time pipelines (SSE/WebSockets) and stateful multi-agent AI orchestration via LangGraph.
+Full-Stack Software Engineer specializing in architecting and deploying high-performance web applications using Next.js, FastAPI, and PostgreSQL. Proven track record of engineering complex enterprise-grade systems—ranging from deep relational database modeling and Docker containerization to building high-concurrency real-time pipelines (SSE/WebSockets) and stateful multi-agent AI orchestration.
 
 ---
 
