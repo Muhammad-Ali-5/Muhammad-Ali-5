@@ -1,129 +1,93 @@
-<svg width="854" height="190" viewBox="0 0 854 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="854" height="160" viewBox="0 0 854 160" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(6px); }
+      from { opacity: 0; transform: translateY(5px); }
       to { opacity: 1; transform: translateY(0); }
     }
-    @keyframes pulseGlow {
-      0%, 100% { opacity: 0.28; transform: scale(1); }
-      50% { opacity: 0.42; transform: scale(1.06); }
+    @keyframes pulseAura {
+      0%, 100% { opacity: 0.25; transform: scale(1); }
+      50% { opacity: 0.45; transform: scale(1.04); }
     }
-    @keyframes subtleDrift {
-      0%, 100% { transform: translate(0px, 0px); }
-      50% { transform: translate(12px, -6px); }
-    }
-    @keyframes ping {
-      0% { r: 3px; opacity: 0.9; }
-      50% { r: 5.5px; opacity: 0.3; }
-      100% { r: 3px; opacity: 0.9; }
-    }
-    .badge-text {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif;
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 1.2px;
-      text-transform: uppercase;
-      fill: #38BDF8;
-    }
-    .name-text {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif;
-      font-size: 52px;
-      font-weight: 750;
-      letter-spacing: -0.8px;
-      fill: url(#name-grad-dark);
+    .name-shimmer {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      fill: url(#shimmer-dark);
       text-anchor: middle;
-      animation: fadeIn 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      animation: fadeIn 0.8s ease-out forwards;
     }
-    .subtitle-text {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Text', Roboto, sans-serif;
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-size: 15.5px;
       font-weight: 500;
-      letter-spacing: 0.2px;
+      letter-spacing: 0.3px;
       fill: #94A3B8;
       text-anchor: middle;
-      animation: fadeIn 1.1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      animation: fadeIn 1s ease-out forwards;
     }
-    .accent-dot {
-      fill: #38BDF8;
+    .card-glass {
+      animation: fadeIn 0.6s ease-out forwards;
     }
-    .glow-aura {
-      animation: pulseGlow 7s ease-in-out infinite;
-      transform-origin: 427px 95px;
-    }
-    .glow-secondary {
-      animation: subtleDrift 9s ease-in-out infinite;
-      transform-origin: 427px 95px;
-    }
-    .status-ping {
-      animation: ping 2.5s ease-in-out infinite;
+    .ambient-glow {
+      animation: pulseAura 6s ease-in-out infinite;
+      transform-origin: 427px 80px;
     }
   </style>
 
   <defs>
-    <!-- Background Ambient Glow Filter -->
+    <!-- Shimmer Sweep on Text -->
+    <linearGradient id="shimmer-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="30%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="70%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+      <animate attributeName="x1" from="-150%" to="250%" dur="4.5s" repeatCount="indefinite" />
+      <animate attributeName="x2" from="-50%" to="350%" dur="4.5s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Ambient Glow Filter -->
     <filter id="ambient-blur" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="28" />
+      <feGaussianBlur stdDeviation="30" />
     </filter>
 
-    <!-- Linear Gradients -->
-    <linearGradient id="name-grad-dark" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="45%" stop-color="#FFFFFF" />
-      <stop offset="100%" stop-color="#E2E8F0" />
+    <!-- Glow Gradient -->
+    <linearGradient id="glow-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#00D2FF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0369A1" stop-opacity="0.6" />
     </linearGradient>
 
-    <linearGradient id="aura-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0284C7" />
-      <stop offset="50%" stop-color="#0369A1" />
-      <stop offset="100%" stop-color="#075985" />
-    </linearGradient>
-
-    <linearGradient id="aura-grad-2" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" />
-      <stop offset="100%" stop-color="#0284C7" />
-    </linearGradient>
-
-    <linearGradient id="line-grad-dark" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
-      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.3" />
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.8" />
-      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
-    </linearGradient>
-
-    <linearGradient id="badge-border-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Glassmorphism Card Border -->
+    <linearGradient id="glass-border-dark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.25" />
+    </linearGradient>
+
+    <!-- Glassmorphism Card Surface Fill -->
+    <linearGradient id="glass-surface-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161B22" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0.6" />
     </linearGradient>
   </defs>
 
-  <!-- Ambient Light Orbs -->
-  <g filter="url(#ambient-blur)" class="glow-aura">
-    <ellipse cx="427" cy="98" rx="140" ry="42" fill="url(#aura-grad-1)" />
-  </g>
-  <g filter="url(#ambient-blur)" class="glow-secondary">
-    <ellipse cx="450" cy="90" rx="100" ry="32" fill="url(#aura-grad-2)" opacity="0.3" />
+  <!-- Ambient Glow Behind Glass Card -->
+  <g filter="url(#ambient-blur)" class="ambient-glow">
+    <ellipse cx="427" cy="80" rx="180" ry="38" fill="url(#glow-grad-dark)" />
   </g>
 
-  <!-- Status Pill Badge -->
-  <g transform="translate(307, 14)">
-    <rect x="0" y="0" width="240" height="24" rx="12" fill="#0D1117" fill-opacity="0.75" stroke="url(#badge-border-dark)" stroke-width="1" />
-    <!-- Glowing Green Status Dot -->
-    <circle cx="16" cy="12" r="4.5" fill="#10B981" opacity="0.2" class="status-ping" />
-    <circle cx="16" cy="12" r="3" fill="#10B981" />
-    <text x="30" y="16" class="badge-text">Available for Opportunities</text>
+  <!-- Glassmorphic Card Container -->
+  <g class="card-glass">
+    <rect x="77" y="15" width="700" height="130" rx="20" fill="url(#glass-surface-dark)" stroke="url(#glass-border-dark)" stroke-width="1.2" />
   </g>
 
-  <!-- Main Name Typography -->
-  <text x="50%" y="98" class="name-text">Muhammad Ali</text>
-
-  <!-- Subtitle with Subtle Accent Dots -->
-  <text x="50%" y="138" class="subtitle-text">
+  <!-- Content -->
+  <text x="50%" y="72" class="name-shimmer">Muhammad Ali</text>
+  <text x="50%" y="112" class="subtitle">
     Full-Stack Software Engineer
     <tspan fill="#38BDF8" font-weight="700"> • </tspan>
     AI Systems Developer
   </text>
-
-  <!-- Horizon Accent Line -->
-  <line x1="280" y1="162" x2="574" y2="162" stroke="url(#line-grad-dark)" stroke-width="1.2" stroke-linecap="round" />
 </svg>
