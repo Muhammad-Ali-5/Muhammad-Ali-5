@@ -1,117 +1,129 @@
+<svg width="854" height="190" viewBox="0 0 854 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.28; transform: scale(1); }
+      50% { opacity: 0.42; transform: scale(1.06); }
+    }
+    @keyframes subtleDrift {
+      0%, 100% { transform: translate(0px, 0px); }
+      50% { transform: translate(12px, -6px); }
+    }
+    @keyframes ping {
+      0% { r: 3px; opacity: 0.9; }
+      50% { r: 5.5px; opacity: 0.3; }
+      100% { r: 3px; opacity: 0.9; }
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      fill: #38BDF8;
+    }
+    .name-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif;
+      font-size: 52px;
+      font-weight: 750;
+      letter-spacing: -0.8px;
+      fill: url(#name-grad-dark);
+      text-anchor: middle;
+      animation: fadeIn 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Text', Roboto, sans-serif;
+      font-size: 15.5px;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      fill: #94A3B8;
+      text-anchor: middle;
+      animation: fadeIn 1.1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .accent-dot {
+      fill: #38BDF8;
+    }
+    .glow-aura {
+      animation: pulseGlow 7s ease-in-out infinite;
+      transform-origin: 427px 95px;
+    }
+    .glow-secondary {
+      animation: subtleDrift 9s ease-in-out infinite;
+      transform-origin: 427px 95px;
+    }
+    .status-ping {
+      animation: ping 2.5s ease-in-out infinite;
+    }
+  </style>
 
-      <svg
-        width="854"
-        height="180"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        style="z-index:1;position:relative"
-        viewBox="0 0 854 180"
-      >
-        <style>
-      .text {   font-size: 56px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 16px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
-      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
-    </style>
-        <defs>
-              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#003366"/><stop offset="30%" stop-color="#00BFFF"/><stop offset="70%" stop-color="#00D2FF"/><stop offset="100%" stop-color="#003366"/>
-              </linearGradient>
-            </defs>
-        
-      <defs>
-        <filter id="blurFilter">
-          <feGaussianBlur stdDeviation="12" />
-        </filter>
-      </defs>
-      
-          <circle 
-            cx="50%" 
-            cy="50%" 
-            r="45" 
-            fill="url(#linear)"
-            opacity="0.2"
-            filter="url(#blurFilter)"
-            
-          >
-            <animate
-              attributeName="cx"
-              values="50%;50%;50%;50%;50%"
-              dur="10s"
-              begin="0s"
-              repeatCount="indefinite"
-              calcMode="spline"
-              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
-            />
-            <animate
-              attributeName="cy"
-              values="50%;50%;50%;50%;50%"
-              dur="12s"
-              begin="0s"
-              repeatCount="indefinite"
-              calcMode="spline"
-              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
-            />
-          </circle>
-        
-          <circle 
-            cx="45%" 
-            cy="50%" 
-            r="54" 
-            fill="url(#linear)"
-            opacity="0.3"
-            filter="url(#blurFilter)"
-            
-          >
-            <animate
-              attributeName="cx"
-              values="45%;50%;55%;50%;45%"
-              dur="30s"
-              begin="1s"
-              repeatCount="indefinite"
-              calcMode="spline"
-              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
-            />
-            <animate
-              attributeName="cy"
-              values="50%;50%;50%;50%;50%"
-              dur="36s"
-              begin="1s"
-              repeatCount="indefinite"
-              calcMode="spline"
-              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
-            />
-          </circle>
-        
-          <circle 
-            cx="60%" 
-            cy="50%" 
-            r="50.400000000000006" 
-            fill="url(#linear)"
-            opacity="0.15"
-            filter="url(#blurFilter)"
-            
-          >
-            <animate
-              attributeName="cx"
-              values="60%;50%;40%;50%;60%"
-              dur="15s"
-              begin="2s"
-              repeatCount="indefinite"
-              calcMode="spline"
-              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
-            />
-            <animate
-              attributeName="cy"
-              values="50%;50%;50%;50%;50%"
-              dur="18s"
-              begin="2s"
-              repeatCount="indefinite"
-              calcMode="spline"
-              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
-            />
-          </circle>
-        
-    
-         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="36%" class="text" style="fill:#FFFFFF;" stroke="#none" stroke-width="1" >Muhammad Ali</text>
-        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="64%" class="desc" style="fill:#FFFFFF;">Full-Stack Software Engineer | AI Systems Developer</text>
-      </svg>
-    
+  <defs>
+    <!-- Background Ambient Glow Filter -->
+    <filter id="ambient-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28" />
+    </filter>
+
+    <!-- Linear Gradients -->
+    <linearGradient id="name-grad-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="45%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+
+    <linearGradient id="aura-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#0369A1" />
+      <stop offset="100%" stop-color="#075985" />
+    </linearGradient>
+
+    <linearGradient id="aura-grad-2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <linearGradient id="line-grad-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="badge-border-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Light Orbs -->
+  <g filter="url(#ambient-blur)" class="glow-aura">
+    <ellipse cx="427" cy="98" rx="140" ry="42" fill="url(#aura-grad-1)" />
+  </g>
+  <g filter="url(#ambient-blur)" class="glow-secondary">
+    <ellipse cx="450" cy="90" rx="100" ry="32" fill="url(#aura-grad-2)" opacity="0.3" />
+  </g>
+
+  <!-- Status Pill Badge -->
+  <g transform="translate(307, 14)">
+    <rect x="0" y="0" width="240" height="24" rx="12" fill="#0D1117" fill-opacity="0.75" stroke="url(#badge-border-dark)" stroke-width="1" />
+    <!-- Glowing Green Status Dot -->
+    <circle cx="16" cy="12" r="4.5" fill="#10B981" opacity="0.2" class="status-ping" />
+    <circle cx="16" cy="12" r="3" fill="#10B981" />
+    <text x="30" y="16" class="badge-text">Available for Opportunities</text>
+  </g>
+
+  <!-- Main Name Typography -->
+  <text x="50%" y="98" class="name-text">Muhammad Ali</text>
+
+  <!-- Subtitle with Subtle Accent Dots -->
+  <text x="50%" y="138" class="subtitle-text">
+    Full-Stack Software Engineer
+    <tspan fill="#38BDF8" font-weight="700"> • </tspan>
+    AI Systems Developer
+  </text>
+
+  <!-- Horizon Accent Line -->
+  <line x1="280" y1="162" x2="574" y2="162" stroke="url(#line-grad-dark)" stroke-width="1.2" stroke-linecap="round" />
+</svg>
