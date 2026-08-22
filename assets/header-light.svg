@@ -1,93 +1,117 @@
-<svg width="854" height="160" viewBox="0 0 854 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(5px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes pulseAura {
-      0%, 100% { opacity: 0.35; transform: scale(1); }
-      50% { opacity: 0.55; transform: scale(1.04); }
-    }
-    .name-shimmer {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-size: 48px;
-      font-weight: 700;
-      letter-spacing: -0.5px;
-      fill: url(#shimmer-light);
-      text-anchor: middle;
-      animation: fadeIn 0.8s ease-out forwards;
-    }
-    .subtitle {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-size: 15.5px;
-      font-weight: 500;
-      letter-spacing: 0.3px;
-      fill: #475569;
-      text-anchor: middle;
-      animation: fadeIn 1s ease-out forwards;
-    }
-    .card-glass {
-      animation: fadeIn 0.6s ease-out forwards;
-    }
-    .ambient-glow {
-      animation: pulseAura 6s ease-in-out infinite;
-      transform-origin: 427px 80px;
-    }
-  </style>
 
-  <defs>
-    <!-- Shimmer Sweep on Text -->
-    <linearGradient id="shimmer-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="30%" stop-color="#0F172A" />
-      <stop offset="50%" stop-color="#0284C7" />
-      <stop offset="70%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#0F172A" />
-      <animate attributeName="x1" from="-150%" to="250%" dur="4.5s" repeatCount="indefinite" />
-      <animate attributeName="x2" from="-50%" to="350%" dur="4.5s" repeatCount="indefinite" />
-    </linearGradient>
-
-    <!-- Ambient Glow Filter -->
-    <filter id="ambient-blur-light" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="30" />
-    </filter>
-
-    <!-- Glow Gradient -->
-    <linearGradient id="glow-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#BAE6FD" stop-opacity="0.7" />
-      <stop offset="50%" stop-color="#E0F2FE" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#BAE6FD" stop-opacity="0.6" />
-    </linearGradient>
-
-    <!-- Glassmorphism Card Border -->
-    <linearGradient id="glass-border-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.3" />
-      <stop offset="50%" stop-color="#BAE6FD" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#E2E8F0" stop-opacity="0.8" />
-    </linearGradient>
-
-    <!-- Glassmorphism Card Surface Fill -->
-    <linearGradient id="glass-surface-light" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85" />
-      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.7" />
-    </linearGradient>
-  </defs>
-
-  <!-- Ambient Glow Behind Glass Card -->
-  <g filter="url(#ambient-blur-light)" class="ambient-glow">
-    <ellipse cx="427" cy="80" rx="180" ry="38" fill="url(#glow-grad-light)" />
-  </g>
-
-  <!-- Glassmorphic Card Container -->
-  <g class="card-glass">
-    <rect x="77" y="15" width="700" height="130" rx="20" fill="url(#glass-surface-light)" stroke="url(#glass-border-light)" stroke-width="1.2" />
-  </g>
-
-  <!-- Content -->
-  <text x="50%" y="72" class="name-shimmer">Muhammad Ali</text>
-  <text x="50%" y="112" class="subtitle">
-    Full-Stack Software Engineer
-    <tspan fill="#0284C7" font-weight="700"> • </tspan>
-    AI Systems Developer
-  </text>
-</svg>
+      <svg
+        width="854"
+        height="180"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        style="z-index:1;position:relative"
+        viewBox="0 0 854 180"
+      >
+        <style>
+      .text {   font-size: 56px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 16px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
+      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
+    </style>
+        <defs>
+              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#003366"/><stop offset="30%" stop-color="#00BFFF"/><stop offset="70%" stop-color="#00D2FF"/><stop offset="100%" stop-color="#003366"/>
+              </linearGradient>
+            </defs>
+        
+      <defs>
+        <filter id="blurFilter">
+          <feGaussianBlur stdDeviation="12" />
+        </filter>
+      </defs>
+      
+          <circle 
+            cx="50%" 
+            cy="50%" 
+            r="45" 
+            fill="url(#linear)"
+            opacity="0.2"
+            filter="url(#blurFilter)"
+            
+          >
+            <animate
+              attributeName="cx"
+              values="50%;50%;50%;50%;50%"
+              dur="10s"
+              begin="0s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+            <animate
+              attributeName="cy"
+              values="50%;50%;50%;50%;50%"
+              dur="12s"
+              begin="0s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+          </circle>
+        
+          <circle 
+            cx="45%" 
+            cy="50%" 
+            r="54" 
+            fill="url(#linear)"
+            opacity="0.3"
+            filter="url(#blurFilter)"
+            
+          >
+            <animate
+              attributeName="cx"
+              values="45%;50%;55%;50%;45%"
+              dur="30s"
+              begin="1s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+            <animate
+              attributeName="cy"
+              values="50%;50%;50%;50%;50%"
+              dur="36s"
+              begin="1s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+          </circle>
+        
+          <circle 
+            cx="60%" 
+            cy="50%" 
+            r="50.400000000000006" 
+            fill="url(#linear)"
+            opacity="0.15"
+            filter="url(#blurFilter)"
+            
+          >
+            <animate
+              attributeName="cx"
+              values="60%;50%;40%;50%;60%"
+              dur="15s"
+              begin="2s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+            <animate
+              attributeName="cy"
+              values="50%;50%;50%;50%;50%"
+              dur="18s"
+              begin="2s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+          </circle>
+        
+    
+         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="36%" class="text" style="fill:#0D1117;" stroke="#none" stroke-width="1" >Muhammad Ali</text>
+        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="64%" class="desc" style="fill:#0077B5;">Full-Stack Software Engineer | AI Systems Developer</text>
+      </svg>
+    
