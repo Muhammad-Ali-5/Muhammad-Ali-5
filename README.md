@@ -5,12 +5,11 @@
 
 <br/><br/>
 
-<!-- Theme-Aware Glowing Blur Banner (Dark & Light Mode Support) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=blur&text=Muhammad%20Ali&color=0:003366,30:00BFFF,70:00D2FF,100:003366&fontSize=56&fontColor=FFFFFF&fontAlignY=36&desc=Full-Stack%20Software%20Engineer%20%7C%20AI%20Systems%20Developer&descAlignY=64&descSize=16&descColor=00D2FF&height=180&v=2" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=blur&text=Muhammad%20Ali&color=0:BAE6FD,30:38BDF8,70:0284C7,100:BAE6FD&fontSize=56&fontColor=0F172A&fontAlignY=36&desc=Full-Stack%20Software%20Engineer%20%7C%20AI%20Systems%20Developer&descAlignY=64&descSize=16&descColor=0369A1&height=180&v=2" />
-  <img src="https://capsule-render.vercel.app/api?type=blur&text=Muhammad%20Ali&color=0:003366,30:00BFFF,70:00D2FF,100:003366&fontSize=56&fontColor=FFFFFF&fontAlignY=36&desc=Full-Stack%20Software%20Engineer%20%7C%20AI%20Systems%20Developer&descAlignY=64&descSize=16&descColor=00D2FF&height=180&v=2" width="100%" alt="Muhammad Ali" />
-</picture>
+<!-- Theme-Aware Header Banner (Glowing Blur in Dark Mode, Clean & Crisp Typography in Light Mode) -->
+<a href="https://m-ali-swe.tech">
+  <img src="https://capsule-render.vercel.app/api?type=blur&text=Muhammad%20Ali&color=0:003366,30:00BFFF,70:00D2FF,100:003366&fontSize=56&fontColor=FFFFFF&fontAlignY=36&desc=Full-Stack%20Software%20Engineer%20%7C%20AI%20Systems%20Developer&descAlignY=64&descSize=16&descColor=00D2FF&height=180#gh-dark-mode-only" width="100%" alt="Muhammad Ali" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&text=Muhammad%20Ali&fontSize=56&fontColor=0D1117&fontAlignY=36&desc=Full-Stack%20Software%20Engineer%20%7C%20AI%20Systems%20Developer&descAlignY=64&descSize=16&descColor=0077B5&height=180#gh-light-mode-only" width="100%" alt="Muhammad Ali" />
+</a>
 
 <p><b>Next.js • FastAPI • PostgreSQL • Agentic AI (LangGraph) • MERN Stack</b></p>
 
