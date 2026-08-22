@@ -7,9 +7,9 @@
 
 <!-- Theme-Adaptive Header Banner (Self-Hosted SVGs for Dark & Light Mode) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/main/assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/main/assets/header-light.svg">
-  <img alt="Muhammad Ali" src="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/main/assets/header-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/main/assets/header-dark.svg?v=1.1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/main/assets/header-light.svg?v=1.1">
+  <img alt="Muhammad Ali" src="https://raw.githubusercontent.com/m-ali-swe/m-ali-swe/main/assets/header-dark.svg?v=1.1" width="100%">
 </picture>
 
 <p><b>Next.js • FastAPI • PostgreSQL • Agentic AI (LangGraph) • MERN Stack</b></p>
